@@ -99,6 +99,10 @@ h1, h2, h3, h4, h5, h6, p{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.curent {
+    color: #404BBF;
+}
+
 .curent::after {
     content: "";
     position: absolute;
@@ -223,6 +227,7 @@ h1, h2, h3, h4, h5, h6, p{
     line-height: 1.5;
     letter-spacing: 0.01em;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 .advantages-section {
@@ -297,7 +302,7 @@ h1, h2, h3, h4, h5, h6, p{
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding: 16px;
+   
 }
 
 .social-list-item {
@@ -454,4 +459,80 @@ h1, h2, h3, h4, h5, h6, p{
     fill: #f4f4fd;
 }
 
+.backdrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.40);
+    top: 0;
+    left: 0;
+}
 
+.modal {
+    width: 408px;
+    height: 584px;
+    border-radius: 4px;
+    background: #FCFCFC;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.modal-btn {
+    background-color: #E7E9FC;
+    border-radius: 50% 50%;
+    border: none;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+.modal-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 72px;
+    margin-bottom: 16px;
+    max-width: 360px;
+
+}
+
+.form-lable {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+
+}
+
+.modal-input {
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid #4D5AE5;
+    background-color: inherit;
+}
+
+.form-btn {
+
+}
+
+.modal-field {
+    display: block;
+    margin-bottom: 8px;
+
+}
+
+.modal-input-wrap{
+    position: relative;
+}
+.modal-icon {
+    position: absolute;
+    left: 16px;
+    top: 11px;
+}
