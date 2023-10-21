@@ -537,7 +537,7 @@ h1, h2, h3, h4, h5, h6, p{
     color: #8E8F99;
     font-size: 12px;
     line-height: 1.17;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
 }
 
 .modal-input {
