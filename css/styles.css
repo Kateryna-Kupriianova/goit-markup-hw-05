@@ -676,7 +676,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 }
 
-input:checked + span {
+.checkbox-input:checked + .checkbox-text >.check-field {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
